@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "oci" {
-  region = "us-ashburn-1"
+  region = "ap-singapore-1"
 }
 
 resource "oci_datascience_project" "ai_project" {

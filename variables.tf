@@ -6,7 +6,7 @@ variable "compartment_id" {
 variable "region" {
   description = "OCI region"
   type        = string
-  default     = "us-ashburn-1"
+  default     = "ap-singapore-1"
 }
 
 variable "vcn_cidr" {
@@ -27,5 +27,10 @@ variable "fingerprint" {
 
 variable "private_key_path" {
   description = "Path to your private key file"
+  type        = string
+}
+
+variable "tenancy_ocid" {
+  description = "The OCID of your Oracle Cloud tenancy"
   type        = string
 }
